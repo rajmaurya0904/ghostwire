@@ -4,4 +4,6 @@ Headless browser session recorder that exports clean, deterministic Playwright t
 scripts directly from user interaction recordings.
 """
 
-__version__ = "0.1.0"
+from .version import __version__
+
+__all__ = ["__version__"]
